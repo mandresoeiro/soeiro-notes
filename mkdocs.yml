@@ -37,6 +37,8 @@ extra:
     <div style="text-align:center;">&copy; 2025 Soeiro Notes. Feito com <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank">Material for MkDocs</a>.</div>
 nav:
   - Home: guides/index.md
+  - Guia de Sincronização: guia-sincronizacao.md
+  # ...restante do menu
   - Backend:
       - Django: guides/backend/django.md
       - DRF: guides/backend/drf.md
