@@ -36,7 +36,7 @@ extra:
   footer: |
     <div style="text-align:center;">&copy; 2025 Soeiro Notes. Feito com <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank">Material for MkDocs</a>.</div>
 nav:
-  - Home: index.md
+  - Home: guides/index.md
   - Backend:
       - Django: guides/backend/django.md
       - DRF: guides/backend/drf.md
