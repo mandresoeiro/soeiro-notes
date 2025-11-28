@@ -1,0 +1,21 @@
+site_name: Study Guides Hub
+theme:
+  name: material
+  palette:
+    primary: blue
+    accent: light blue
+nav:
+  - Home: index.md
+  - Backend:
+      - Django: guides/backend/django.md
+      - DRF: guides/backend/drf.md
+      - Auth: guides/backend/auth.md
+  - Frontend:
+      - React: guides/frontend/react.md
+      - Vite: guides/frontend/vite.md
+      - Tailwind: guides/frontend/tailwind.md
+  - DevOps:
+      - Docker: guides/devops/docker.md
+      - GitHub Actions: guides/devops/github-actions.md
+  - AI:
+      - Prompts: guides/ai/prompts.md
