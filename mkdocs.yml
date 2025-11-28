@@ -1,9 +1,39 @@
 site_name: Study Guides Hub
+site_url: https://mandresoeiro.github.io/soeiro-notes/
 theme:
   name: material
+  logo: assets/logo.png  # Adicione um logo em assets/logo.png
+  favicon: assets/favicon.ico  # Adicione um favicon em assets/favicon.ico
   palette:
-    primary: blue
-    accent: light blue
+    - scheme: default
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/weather-night
+        name: Modo escuro
+    - scheme: slate
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/weather-sunny
+        name: Modo claro
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.sections
+    - navigation.expand
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.code.annotate
+    - content.tabs.link
+  language: pt
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/mandresoeiro/soeiro-notes
+  footer: |
+    <div style="text-align:center;">&copy; 2025 Soeiro Notes. Feito com <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank">Material for MkDocs</a>.</div>
 nav:
   - Home: index.md
   - Backend:
