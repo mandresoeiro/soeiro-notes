@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "soeiro-notes"
+version = "0.1.0"
+description = "Notas, guias e materiais de referência para uso pessoal e profissional."
+authors = ["Marcio Soeiro <mandresoeiro@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4.0"
+mkdocs = "*"
+mkdocs-material = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
