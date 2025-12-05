@@ -3,8 +3,7 @@ site_url: https://mandresoeiro.github.io/soeiro-notes/
 docs_dir: docs
 theme:
   name: material
-  logo: docs/assets/logo.png  # Adicione um logo em docs/assets/logo.png
-  favicon: docs/assets/favicon.ico  # Adicione um favicon em docs/assets/favicon.ico
+  # logo and favicon placeholders removed until assets exist
   palette:
     - scheme: default
       primary: blue
@@ -37,12 +36,17 @@ extra:
     <div style="text-align:center;">&copy; 2025 Soeiro Notes. Feito com <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank">Material for MkDocs</a>.</div>
 nav:
   - Home: guides/index.md
-  - Guia de Sincronização: guia-sincronizacao.md
-  # ...restante do menu
+  - Guia Home/Work: guides/guia_home_work.md
   - Backend:
       - Django: guides/backend/django.md
       - DRF: guides/backend/drf.md
       - Auth: guides/backend/auth.md
+      - Django CBVs 2025:
+        - 01 Views Simples: guides/backend/django_cbvs_2025/01_views_simples.md
+        - 02 Views Objetos: guides/backend/django_cbvs_2025/02_views_objetos.md
+        - 03 Mixins Essenciais: guides/backend/django_cbvs_2025/03_mixins_essenciais.md
+        - 04 Mixins Forms: guides/backend/django_cbvs_2025/04_mixins_forms.md
+        - 05 Processamento HTTP: guides/backend/django_cbvs_2025/05_processamento_http.md
   - Frontend:
       - React: guides/frontend/react.md
       - Vite: guides/frontend/vite.md
@@ -52,3 +56,19 @@ nav:
       - GitHub Actions: guides/devops/github-actions.md
   - AI:
       - Prompts: guides/ai/prompts.md
+      - ChatGPT: guides/ai/chatgpt/diagnostico-chatgpt.md
+      - CodeGPT: guides/ai/codegpt/diagnostico-codegpt.md
+      - Copilot:
+        - Diagnóstico: guides/ai/copilot/copilot-diagnostico.md
+        - Setup: guides/ai/copilot/github-copilot-setup.md
+      - OpenAI API: guides/ai/openai-api/diagnostico-openai-api.md
+  - GitHub:
+    - Catálogo de Commits: guides/github/catalogo_commits.md
+  - Checklist:
+    - Profissional Software 2025: guides/Checklist-Software/CHECKLIST-PROFISSIONAL-SOFTWARE-2025.md
+  - Projetos/Propostas:
+    - Guia ENEM Sistemas: guides/Projetos-Proposta/guia-sistemas-enem.md
+    - README Portfólio Sistemas: guides/Projetos-Proposta/readme-portfolio-sistemas.md
+    - MkDocs ENEM Sistemas: guides/Projetos-Proposta/mkdocs-enem-sistemas.md
+    - Pitch Deck Sistemas: guides/Projetos-Proposta/pitchdeck-sistemas.md
+    - "Prompt: Meu Futuro Médico": guides/Projetos-Proposta/PROMPT-MEU-FUTURO-MEDICO.md
